@@ -1,0 +1,165 @@
+.banner {
+	background-size: cover;
+	background-position: center;
+	padding: 200px; 
+	margin-right: none;
+
+}
+
+.container {
+	/*width: 100%;*/
+	height: 400px;
+	/*margin: auto;*/
+	text-align: center ;
+	/*margin-top: -300px;*/
+}
+
+.btn-primary {
+	padding: 20px;
+	border-radius: 7px;
+	background-color: white;
+	border: 0;
+	font-family: roboto;
+	font-size: 14px;
+	color: #FA542E;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 25px;
+
+}
+
+.btn-primary:hover{
+	background-color: #FA946B;
+}
+
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+    font-family: roboto;
+    color: #ffff;
+} 
+
+h2 {
+	text-align: center;
+	font-family: roboto;
+	color: #ffff;
+
+}
+
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+    font-family: roboto;
+    text-transform: uppercase;
+    color: #ffff;
+   color: #FA542E;
+    margin-top: 30px;
+
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+    font-family: roboto;
+
+}
+
+h5 {
+	font-family: roboto;
+	color: #ffff;
+	font-size: 10px;
+}
+
+p{
+	text-align: left;
+	font-family: roboto;
+	color: #00000;
+	margin: 4%;
+	font-size: 70%;
+	margin-top: -20px;
+}
+
+
+
+/*Les blocks*/
+
+.mutipleblocks {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+.block{
+	width: 30%;
+	margin-left: 10px;
+    margin-right:10px;
+   /* margin-bottom: 5%;*/
+    box-shadow: 1px 3px 16px 6px rgba(153,177,186,0.2);
+	webkit-box-shadow: 1px 3px 16px 6px rgba(153,177,186,0.2);
+	moz-box-shadow: 1px 3px 16px 6px rgba(153,177,186,0.2);
+	border-radius: 2%;
+    padding: 12px;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+img{
+	width: 300px;
+	max-width: 100%;
+	border-radius: 4%;   
+}
+
+
+
+footer {
+	background-color:#FA542E;
+	/*margin-top: 50px;*/
+	/*width: 100%;*/
+	/*height: 30px;*/
+	padding: 40px;
+	position: static;
+	bottom: 0;
+	text-align: center;
+}
+
+.fa-linkedin {
+	color: white;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+
+.fa-instagram{
+	color: white;
+	margin-right: 20px;
+}
+
+.fa-book {
+	color: white;
+	}
+
+
+/*.icone {
+	align-items: center;
+	justify-content: center;
+}*/
+
+/*@media (max-width:200px) {
+	.container {
+		width: 500px;
+	}
+	.block {
+		justify-content:space-around ;
+	}
+}*/
+
+
+
+
+
+
